@@ -1,10 +1,13 @@
-﻿namespace QuizMaster
+﻿using QuizMaster.Classes;
+
+namespace QuizMaster
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Subject subject = new();
+            subject.CreateExam();
         }
     }
 }
